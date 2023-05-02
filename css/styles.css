@@ -505,7 +505,7 @@ button {
     fill: var(--ocean-text-color);
     color: var(--ocean-text-color);
     border: 1px solid var(--ocean-text-color);
-    border-color: #404bbf;
+    border-color: var(--ocean-text-color);
 }
 
 .customers-link-item:hover,
@@ -513,6 +513,7 @@ button {
     fill: var(--ocean-text-color);
     /* color: var(--ocean-text-color); */
     /* border: 1px solid var(--ocean-text-color); */
+    border-color: var(--ocean-text-color);
 }
 
 /**
