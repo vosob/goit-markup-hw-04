@@ -512,7 +512,7 @@ button {
 .customers-link-item:hover,
 .customers-link-item:focus,
 .customers-link-item:active {
-    fill: var(--ocean-text-color);
+    fill: currentColor;
     /* color: var(--ocean-text-color); */
     /* border: 1px solid var(--ocean-text-color); */
     border-color: var(--ocean-text-color);
