@@ -502,13 +502,17 @@ button {
 
 .customers-icons:hover,
 .customers-icons:focus {
+    fill: var(--ocean-text-color);
     color: var(--ocean-text-color);
     border: 1px solid var(--ocean-text-color);
+    border-color: #404bbf;
 }
 
 .customers-link-item:hover,
 .customers-link-item:focus {
     fill: var(--ocean-text-color);
+    /* color: var(--ocean-text-color); */
+    /* border: 1px solid var(--ocean-text-color); */
 }
 
 /**
@@ -580,6 +584,11 @@ button {
 .advantages-item {
     max-width: 360px;
     display: block;
+}
+.advantages-item:hover,
+.advantages-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .advantages-title {
