@@ -475,7 +475,8 @@ button {
 */
 
 .customers-link-item {
-    fill: var(--light-slate-color);
+    /* fill: var(--light-slate-color); */
+    fill: currentColor;
 }
 
 .customers-list {
