@@ -64,6 +64,21 @@ button {
     /* outline: 2px solid tomato;
     outline-offset: -2px; */
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /**
   |============================
   | header
@@ -99,8 +114,20 @@ button {
     padding: 24px 0;
     display: inline-block;
     margin-right: 76px;
-    margin-bottom: 16px;
+    color: var(--accent-bgc);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
 
+.footer-logo {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 16px;
+    padding: 0;
     color: var(--accent-bgc);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -181,6 +208,10 @@ button {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.work {
+    padding-top: 0;
 }
 
 .hero {
@@ -264,7 +295,7 @@ button {
 }
 
 .advantages-list-item {
-    width: 400px;
+    width: 264px;
 }
 
 .advantages-list-item:not(:last-child) {
@@ -398,9 +429,9 @@ button {
     display: block;
 }
 
-.advantages-images {
+/* .advantages-images {
     margin-bottom: 32px;
-}
+} */
 
 .advantages-title {
     margin-bottom: 8px;
