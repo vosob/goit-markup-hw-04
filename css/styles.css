@@ -502,6 +502,7 @@ button {
 
 .customers-icons:hover,
 .customers-icons:focus {
+    color: var(--ocean-text-color);
     border: 1px solid var(--ocean-text-color);
 }
 
