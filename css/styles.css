@@ -451,6 +451,23 @@ button {
     background-color: var(--ocean-text-color);
 }
 
+.socials-footer-link {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent-bgc);
+    color: #f4f4fd;
+    border-radius: 50%;
+}
+
+.socials-footer-link:hover,
+.socials-footer-link:focus {
+    background-color: var(--secondary-green-color);
+}
+
 /**
   |============================
   | Customers
@@ -498,7 +515,7 @@ button {
 }
 
 .footer p {
-    color: var(--secondary-bgc);
+    color: var(--white-text-color);
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
