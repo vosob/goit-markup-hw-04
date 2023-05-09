@@ -284,13 +284,13 @@ button {
     max-width: 1440px;
 
     color: var(--main-text-color);
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
+    /* font-size: 36px; */
+    height: 600px;
+    /* letter-spacing: 0.02em;
+    line-height: 1.11; */
     text-align: center;
     background-color: var(--main-text-color);
-    min-width: 1440px;
+    /* min-width: 1440px; */
     background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
@@ -585,7 +585,6 @@ button {
 }
 
 .advantages-item {
-    max-width: 360px;
     display: block;
 }
 .advantages-item:hover,
